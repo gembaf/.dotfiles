@@ -1,0 +1,9 @@
+[user]
+	name = gembaf
+	email = gembaf.github@gmail.com
+[color]
+	ui = true
+[core]
+	editor = vim
+[github]
+	user = gembaf
