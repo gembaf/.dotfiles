@@ -1,0 +1,13 @@
+BoldAsFont=no
+CursorType=block
+CursorBlinks=yes
+Font=Ricty for Powerline
+FontHeight=14
+Locale=C
+Charset=UTF-8
+ClipShortcuts=no
+WindowShortcuts=no
+SwitchShortcuts=no
+ZoomShortcuts=no
+AltFnShortcuts=no
+RightClickAction=paste
