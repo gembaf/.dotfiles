@@ -3,6 +3,8 @@
 	email = gembaf.github@gmail.com
 [color]
 	ui = true
+[push]
+	default = current
 [core]
 	editor = vim
 [github]
