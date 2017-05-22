@@ -3,6 +3,10 @@
 	email = gembaf.github@gmail.com
 [color]
 	ui = true
+[alias]
+	lock = "update-index --skip-worktree"
+	unlock = "update-index --no-skip-worktree"
+	locked = "!f() { git ls-files -v | grep ^S | sed -e 's|S ||'; }; f;"
 [push]
 	default = current
 [pull]
