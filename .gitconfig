@@ -7,6 +7,8 @@
 	lock = "update-index --skip-worktree"
 	unlock = "update-index --no-skip-worktree"
 	locked = "!f() { git ls-files -v | grep ^S | sed -e 's|S ||'; }; f;"
+	mdiff = "!sh -c '~/.dotfiles/scripts/merge_base_diff.sh master HEAD'"
+	mdiffn = "!sh -c '~/.dotfiles/scripts/merge_base_diff.sh master HEAD --name-only'"
 [push]
 	default = current
 [pull]
